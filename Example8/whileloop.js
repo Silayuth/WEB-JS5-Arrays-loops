@@ -35,6 +35,17 @@
 // for (i = 0; i < 10; i++);//if you forget i++ then it will loop forever
 
 
+//while loop
+// const NJMKL = ["Neeti","James","Mean","Kan","Lak"];
+// let i = 0;
+
+// while (i < NJMKL.length) {
+//     const currentItem = NJMKL[i];
+//     console.log('i = ' + i + ' NJMKL ' + currentItem);
+//     i++;
+// }
+
+
 
 //OR
 // let userInput = '';
