@@ -37,11 +37,11 @@
 
 
 //OR
-let userInput = '';
-let attempts = 3;
+// let userInput = '';
+// let attempts = 3;
 
-while (userInput !== 'quit' && userInput !== 'exit' && attempts > 0) {
-    userInput = prompt(`Enter something (type "quit" or "exit" to exit), ${attempts} attempts left:`);
-    console.log(`You entered: ${userInput}`);
-    attempts--;
-}
+// while (userInput !== 'quit' && userInput !== 'exit' && attempts > 0) {
+//     userInput = prompt(`Enter something (type "quit" or "exit" to exit), ${attempts} attempts left:`);
+//     console.log(`You entered: ${userInput}`);
+//     attempts--;
+// }
