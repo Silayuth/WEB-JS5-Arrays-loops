@@ -2,7 +2,7 @@
 
 let fruit_products_slice = ['apple', 'banana', 'mango', 'pear', 'strawberry', 'orange'];
 
-    const newArray = fruit_products_slice.slice(1, 3); // Returns elements at index 1, 2, and 3
+    const newArray = fruit_products_slice.slice(3, 4); // Returns elements at index 1, 2, and 3
     console.log(newArray); // Output: ['banana', 'mango']
     console.log(fruit_products_slice);
 

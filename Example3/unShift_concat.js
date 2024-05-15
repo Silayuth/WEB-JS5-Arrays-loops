@@ -1,12 +1,12 @@
 //----------------------------------------unshift-----------------------------------------//
 
-// const NJMKL = ["Neeti","James","Mean","Kan","Lak"];
+const NJMKL = ["Neeti","James","Mean","Kan","Lak"];
 
-// NJMKL.unshift("Generation"); //add Generation to the beginning of the array
-// console.log(NJMKL);
+NJMKL.unshift("Generation"); //add Generation to the beginning of the array
+console.log(NJMKL);
 
-// NJMKL.unshift("GenKX", 99);//add GenKX and 99 to the beginning of the array
-// console.log(NJMKL); 
+NJMKL.unshift("GenKX", 99);//add GenKX and 99 to the beginning of the array
+console.log(NJMKL); 
 
 
 //-------------------------------------Real World----------------------------//

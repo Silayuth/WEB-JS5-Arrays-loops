@@ -18,16 +18,16 @@
 // console.log (NJMKL.length);
 
 //----------------------------forEach----------------------//
-// const NJMKL = ["Neeti","James","Mean","Kan","Lak"];
-// console.log(NJMKL);
+const NJMKL = ["Neeti","James","Mean","Kan","Lak"];
+console.log(NJMKL);
 
-// // Using forEach to log each element in the array
-// NJMKL.forEach(function(members) {
-//   console.log(members);
-// });
+// Using forEach to log each element in the array
+NJMKL.forEach(function(members) {
+  console.log(members);
+});
 
 // //using for loop
-// for (let i = 0; i < NJMKL.length; i++) {
-//   console.log(NJMKL[i]);
-// }
+for (let i = 0; i < NJMKL.length; i++) {
+  console.log(NJMKL[i]);
+}
 

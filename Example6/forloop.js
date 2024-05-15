@@ -1,4 +1,4 @@
-// for (let i = 0; i < 5; i++){
+// for (let i = 1; i < 5; i++){
 //     console.log('Hello World ' + i);
 // }
 
@@ -10,13 +10,14 @@
 //     if (i % 2 !== 0 ) console.log('I am odd ' + i);
 // }
 
-// let arr = ["a", "b", "c"];
-// for (let i=0; i<arr.length; i++) { // will loop 3 times (length of arr = 3)
-//     console.log(arr[i]);
-// }
+let arr = ["a", "b", "c", "d", "e" ];
+for (let i=0; i<= arr.length; i++) { // will loop 3 times (length of arr = 3)
+    console.log(`${arr[i]} index = [${i}]`);
+}
 
 // // for loop Array
 // const NJMKL = ["Neeti","James","Mean","Kan","Lak"];
+
 // for (let i = 0; i < NJMKL.length; i++){
 //     const currentItem = NJMKL[i];
 //     console.log('i = ' + i + ' NJMKL ' + currentItem);
@@ -34,19 +35,42 @@
 
 // let totalValue = 0;
 
-// for (let i = 0; i < inventory.length; i++) {
+// for (let i = 1; i < inventory.length; i++) {
 //   const product = inventory[i];
+//   console.log(product)
 //   if (product.quantity_in_stock !== null) {
 //     totalValue += product.quantity_in_stock * product.unit_price;
 //   }
 // }
 
-// console.log("Total value of all products in inventory: $" + totalValue);
+//  console.log("Total value of all products in inventory: $" + totalValue);
+
+// const inventory = [
+//     { product_name: "Sticky Notes", quantity_in_stock: 20, unit_price: 0.8 },
+//     { product_name: "Highlighters", quantity_in_stock: 15, unit_price: 2 },
+//     { product_name: "All-Purpose Cleaner", quantity_in_stock: null, unit_price: 2.5 },
+//     { product_name: "Washing up liquid", quantity_in_stock: 15, unit_price: 1.8 },
+//     { product_name: "Laundry Detergent", quantity_in_stock: 20, unit_price: 3 }
+//   ];
+  
+//   let totalValue = 0;
+  
+//   // Loop starts at index 1 and goes up to but not including inventory.length
+//   for (let i = 1; i < inventory.length; i++) {
+//     const product = inventory[i]; // Access the product at index i
+//     if (product.quantity_in_stock !== null) {
+//       totalValue += product.quantity_in_stock * product.unit_price;
+//     }
+//   }
+  
+//   console.log("Total value of all products in inventory (excluding first): $" + totalValue);
+  
+  
 
 
 
 
-// // post-increament (i++) - assign before add
+// post-increament (i++) - assign before add
 // let num = 0;
 // let a1 = num++; //assign a1 = num then num = num+1
 // console.log(a1);

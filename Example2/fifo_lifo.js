@@ -10,9 +10,9 @@
 // console.log(NJMKL);
 
 //---------------------------------pop--------------------------------//
-// const NJMKL = ["Neeti","James","Mean","Kan","Lak", "jsd7*"];
-// NJMKL.pop();
-// console.log(NJMKL);
+const NJMKL = ["Neeti","James","Mean","Kan","Lak", "jsd7*"];
+NJMKL.pop();
+console.log(NJMKL);
 
 //------------------------------FIFO--------------------------------//
 // Initialize an array to represent our inventory
