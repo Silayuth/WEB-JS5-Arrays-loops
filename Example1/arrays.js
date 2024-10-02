@@ -21,13 +21,18 @@
 const NJMKL = ["Neeti","James","Mean","Kan","Lak"];
 console.log(NJMKL);
 
-// Using forEach to log each element in the array
-NJMKL.forEach(function(members) {
-  console.log(members);
-});
-
 // //using for loop
 for (let i = 0; i < NJMKL.length; i++) {
   console.log(NJMKL[i]);
 }
+
+// Using map to log each element in the array
+NJMKL.map(function(members) {
+  console.log(members);
+});
+
+NJMKL.map((members) => {
+  console.log(members);
+});
+
 
