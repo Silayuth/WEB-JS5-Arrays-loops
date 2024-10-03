@@ -1,19 +1,13 @@
-const NAKKK = ["Nak", "Neeti", "Kan", "Khai", "Kanin", "Khem"];
-
-
-/*
-CODE HERE:
-for()
-print "instructor: <<Name>>"
-
-*/
-
+let animals = ['Ant', 'Bird', 'Cat', 'Dog'];
 
 /*
-CODE HERE:
 
-Remove Nak at index 1;
+CODE HERE!
 
-map()
-print "instructor: <<Name>>"
+add 'Fish' to the array
+add 'Giraffe' to the array
+remove 'Bird' from the array
+change 'Cat' to 'Cheetah'
+
+display animals using
 */
