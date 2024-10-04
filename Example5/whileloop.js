@@ -1,3 +1,4 @@
+
 // while loop
 let i = 0;
 while (i <= 5) {
@@ -15,3 +16,8 @@ do {
 // while (k < 5) {
 //     console.log(k);
 // }
+
+let userInput = "";
+while (userInput.length !== 8) {
+  userInput = prompt("Enter 8 characters:");
+}
